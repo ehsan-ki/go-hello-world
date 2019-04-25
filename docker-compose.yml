@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: "innovationnorway/go-hello-world"
+    ports:
+     - "80:80"
+  redis:
+    image: "redis:alpine"
